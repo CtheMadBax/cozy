@@ -7,14 +7,17 @@ html {
 }
 
 .header {
+  width: 100vw;
   position: fixed;
+  z-index: 1;
   height: 69px;
   border-bottom: 1px solid seashell;
-  display: inline-flex;
+  display: flex
+  justify-content: space-between;
   align-items: center;
 }
 
-.top#logo {
+.top#logo img{
   height: 50px;
   margin-left: 10px;
 }
@@ -22,4 +25,16 @@ html {
 .top#nav-list {
   justify-content: flex-end;
   text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  color: seashell;
 }
