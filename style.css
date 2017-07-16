@@ -12,7 +12,7 @@ html {
   z-index: 1;
   height: 69px;
   border-bottom: 1px solid seashell;
-  display: flex
+  display: inline-flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -25,6 +25,7 @@ html {
 .top#nav-list {
   justify-content: flex-end;
   text-decoration: underline;
+  margin-right: 10px
 }
 
 ul {
