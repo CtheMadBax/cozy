@@ -39,3 +39,13 @@ li {
 a {
   color: seashell;
 }
+
+#mission {
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+.mission-text {
+  z-index: 1;
+  align-items: center;
+}
