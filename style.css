@@ -15,6 +15,7 @@ html {
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
+  background-color: black;
 }
 
 .top#logo img{
@@ -40,14 +41,25 @@ a {
   color: seashell;
 }
 
-#mission {
-  height: 700px;
+.main {
+  padding-top: 69px;
   width: 1200px;
+  margin: auto;
+}
+
+.mission {
+  display: flex;
+  flex-wrap: wrap;
+  height: 700px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 100px;
+  justify-content: center;
+  align-items: center;
 }
 
 .mission-text {
-  z-index: 1;
-  align-items: center;
-  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  background-color: black;
 }
