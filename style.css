@@ -84,7 +84,7 @@ a {
 
 .different-teas {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -124,6 +124,8 @@ a {
 .location-choice {
   display: flex;
   justify-content: space-around;
+  margin: auto;
+  width: 1100px;
 }
 
 .choice-text {
